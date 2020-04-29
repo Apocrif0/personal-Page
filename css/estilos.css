@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Zhi+Mang+Xing&display=swap');
+@font-face {
+    font-family: 'flexslider-icon';
+    src: url('../fonts/flexslider-icon.eot');
+    src: url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('../fonts/flexslider-icon.woff') 
+    format('woff'), url('../fonts/flexslider-icon.ttf') format('truetype'), url('../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+  :root{
+    --color-primary:#2f3542;
+    --color-secundary:#57606f;
+    --color-claro:white;
+    --color-alternative:#a4b0be;
+
+
+  }
+  body{
+    
+       background-color: rgb(253, 244, 228);
+  }
+  h2,h3,h5{
+    font-family: 'Dancing Script', cursive;
+    color: firebrick;
+  }
+  .navbar{
+    background-color: var(--color-primary);
+    
+  }
+
+  .navbar-brand img{
+    width: 50px;
+
+  }
+  .navbar-light .navbar-nav .nav-link{
+      color: rgb(216, 204, 204) !important;
+  }
+  .navbar-light .navbar-nav .nav-link:hover{
+      color: var(--color-claro)!important;
+      text-decoration: underline;
+  }
+  .jumbotron{
+  
+    padding:0;
+  }
+  .carousel-inner{
+    height: 80vh;
+   
+  }
+  .carousel{
+   
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+.hero-present{
+  
+  font-family: 'Dancing Script', cursive;
+  margin-top: 2%;
+  position: absolute;
+  top: 0;
+  color: white;
+  
+
+
+}
+.hero-present h2,h1{
+  color: white;
+  font-size: 80px;
+} 
+.hero-present img{
+  opacity: .8;
+}
+
+ .Profile img, .hero-present img{
+  border-radius: 100%;
+ width: 200px;
+  
+}
+.badge img{
+  width: 50px;
+  
+}
+.contact .badge{
+  background-color:  rgb(54, 52, 52);
+}
+.proyects{
+  background-color: rgb(224, 224, 224) ;
+}
+
+
+
+  
+@media (max-width: 767.98px) { 
+  .carousel-inner{
+    height: auto;
+  }
+  .hero-present h2,h1{
+    color: white;
+    font-size: 30px;
+   
+  } 
+  .hero-present img{
+    opacity: .8;
+    width: 100px;
+  }
+ }
